@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Календар для запису перегляду авто</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .calendar {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        td {
+            background-color: #f2f2f2;
+        }
+        .selected {
+            background-color: #4CAF50;
+            color: white;
+        }
+        input[type="text"] {
+            width: calc(100% - 20px);
+            padding: 5px;
+            margin-top: 10px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Запис на перегляд авто</h1>
+
+<div class="calendar">
+    <table>
+        <thead>
+            <tr>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+                <th>Нд</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="selected">1</span><br><input type="text" placeholder="Введіть запис"></td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            <!-- Add more rows for other weeks -->
+        </tbody>
+    </table>
+    <button>Зберегти</button>
+</div>
+
+<button onclick="location.href='Home 1.html'">Повернутися на головну сторінку</button>
+<button onclick="location.href='Місячний Календар.html'">Повний місячний календар</button>
+
+</body>
+</html>

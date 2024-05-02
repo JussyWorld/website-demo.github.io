@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Повний місячний календар</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .calendar {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #ccc;
+        }
+        th {
+            background-color: #333;
+            color: white;
+        }
+        td {
+            background-color: #f2f2f2;
+        }
+        .selected {
+            background-color: #4CAF50;
+            color: white;
+        }
+                button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+<div class="calendar">
+    <table>
+        <thead>
+            <tr>
+                <th>Пн</th>
+                <th>Вт</th>
+                <th>Ср</th>
+                <th>Чт</th>
+                <th>Пт</th>
+                <th>Сб</th>
+                <th>Нд</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Generate the calendar days dynamically here -->
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><span class="selected">1</span></td>
+                <td>2</td>
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td>11</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<button onclick="location.href='Home 1.html'">Повернутися на головну сторінку</button>
+
+</body>
+</html>
